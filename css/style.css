@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+
+header {
+  background-color: bisque;
+  padding: 20px 0;
+}
+
+header a {
+  color: gray;
+  text-decoration: none;
+}
+
+header #brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+header nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+#herounit {
+  background-color: aquamarine;
+  padding: 100px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+#selamatdatang {
+  flex-grow: 1;
+}
+
+#fotoutama {
+  width: 200px;
+  height: auto;
+}
+
+#gallery .container {
+  flex-direction: column;
+}
+
+#gallery h3 {
+  text-align: center;
+}
+
+#gallery #grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+}
+
+#gallery #grid img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
